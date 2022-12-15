@@ -1,0 +1,93 @@
+*{
+    font-family: 'Fraunces', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    margin: 100px auto;
+    padding: 100px;
+    background:hsl(30, 38%, 92%);
+    width: 800px;
+}
+#wrapper{
+    background: white;
+    text-align: center;
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
+}
+#wrapper img{
+    height:100%;
+    border-radius: 20px 0 0 20px; 
+}
+.body{
+    padding: 30px;
+    text-align: left;
+}
+p.parfum{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 8px;
+    margin: auto;
+    text-transform: uppercase;
+}
+h2{
+    color: hsl(212, 21%, 14%);
+    text-transform: capitalize;
+    font-size: 38px;
+    margin: 15px auto;
+    line-height: 1em;
+}
+.body p{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    word-spacing: 6px;
+    margin-bottom: 15px;
+}
+#cart-section ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+#cart-section li.price{
+    margin-top: 20px;
+    color: hsl(158, 36%, 37%);
+    font-weight: bold;
+    font-size: 40px;
+    list-style-type: none;
+    align-items: justify;
+}
+#cart-section li.line{
+    font-size: 14px;
+    text-decoration: line-through;
+    padding: 13px;
+    color:hsl(228, 12%, 48%);
+    height: 10px; 
+    list-style-type: none;
+}
+button{
+    background-color:hsl(158, 36%, 37%) ;
+    color:hsl(30, 38%, 92%) ;
+    border-radius: 10px;
+    margin-top: 35px ;
+    text-transform: capitalize;
+    padding: 10px;
+    border: 0;
+    width: 250px;
+
+}
+button img{
+    align-items: center;
+    height: 30px;
+    margin-right: 10px;
+}
+button:hover{
+    background: hsl(212, 21%, 14%);
+    cursor: pointer;
+}
+p{
+    display: inline;
+    font-size: small;
+    text-align: center;
+}
