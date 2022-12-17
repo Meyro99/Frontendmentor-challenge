@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
 *{
     font-family: 'Fraunces', serif;
     box-sizing: border-box;
@@ -6,7 +8,7 @@
 }
 body{
     text-align: center;
-    margin: 100px auto;
+    margin: 50px auto;
     padding: 100px;
     background:hsl(30, 38%, 92%);
     width: 800px;
@@ -75,11 +77,9 @@ button{
     padding: 10px;
     border: 0;
     width: 250px;
-
 }
-button img{
+.btn img{
     align-items: center;
-    height: 30px;
     margin-right: 10px;
 }
 button:hover{
@@ -87,7 +87,59 @@ button:hover{
     cursor: pointer;
 }
 p{
+    margin-top: 10px;
     display: inline;
     font-size: small;
     text-align: center;
+}
+@media screen and (max-width:500px) {
+    body{
+        margin: 0 auto;
+        width: 100%; 
+        padding: 100px;
+    }
+    #wrapper{
+        display: inline-block;
+        text-align: center;
+        border-radius: 0;
+        border-radius: 10px 10px 10px 10px;  
+    }
+    .product-image{
+        display: inline-block;
+        width:100%;
+        height: 280px;
+        object-fit: cover;
+    }
+    #wrapper img{
+        border-radius: 10px 10px 0px 0;
+        object-fit: cover;
+    }
+    .body{
+        margin: 0 auto;
+        padding: 15px;
+    }
+    p.parfum{
+        font-size: 13px;
+        margin: auto;
+        text-transform: uppercase;
+    }
+    h2{
+        color: hsl(212, 21%, 14%);
+        text-transform: capitalize;
+        font-size: 35px;
+        margin: 15px auto;
+        line-height: 1em;
+    }
+    button{
+        border-radius: 10px;
+        margin-top: 10px ;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+        display: inline;
+        width: 100%;
+    }
+    .cart-section button img{
+        width: auto;
+    }
+
 }
