@@ -101,7 +101,6 @@ p{
         padding: 30px;
         box-sizing: content-box;
         justify-content: center;
-        align-items: baseline;
     }
     #wrapper{
         display: inline-block;
