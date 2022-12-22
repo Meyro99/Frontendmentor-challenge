@@ -100,7 +100,7 @@ p{
         width: 300px; 
         padding: 30px;
         box-sizing: content-box;
-        justify-content: center;
+        /* justify-content: center; */
     }
     #wrapper{
         display: inline-block;
